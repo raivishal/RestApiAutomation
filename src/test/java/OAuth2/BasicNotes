@@ -1,0 +1,4 @@
+OAuth :
+	- is an authentication for APIs.
+	- it provide multiple grant types ; Authorization code and client credentials are the most commonly used.
+	- Example - when we trying to create new account on any web-site (bookmyshow.com), it will provide an option to login with google account or facebook account. this 3rd party login mechanism is known as OAuth2.0.
