@@ -62,6 +62,7 @@ public class Demo {
 		.multiPart("file",new File("D:\\RestAPI\\restAssuredBasic\\bookData.json"))
 		.when()
 		.post("rest/api/2/issue/{id}/attachments").then().log().all().assertThat().statusCode(200);
+		System.out.println("");
 	}
 
 	@Test(dependsOnMethods = "addAttachements")
