@@ -2,3 +2,13 @@ OAuth :
 	- is an authentication for APIs.
 	- it provide multiple grant types ; Authorization code and client credentials are the most commonly used.
 	- Example - when we trying to create new account on any web-site (bookmyshow.com), it will provide an option to login with google account or facebook account. this 3rd party login mechanism is known as OAuth2.0.
+	
+	
+1- Authorization code : 
+	* it involve double security layers.
+	* need authentication code and access token to proceed with request.
+	* Example - While login with BookMyShow. we will be able to login with facebook or Google. so facebook or google has to provide the user details (First name, last name , email id, DOB)
+			  - to get such details from third party, BookMyShow will use the OAuth 2.0 - Autherization Code mechanism to verify the client (book my show) and provide the required details.
+			  
+2- Client Credentials : 
+	* in this mechanism, there is not any third party for verification, client directly connected with Source server by login with USERNAME, PASSWORD and can get the required details from source. 	

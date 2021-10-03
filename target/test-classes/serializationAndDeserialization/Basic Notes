@@ -1,0 +1,9 @@
+# Serialization and De-serialization are the ways to parse the request/response(from Java object to JSON or vice-versa).
+# it makes code more readable.
+1- Serialization :
+	* it is a process of converting Java object into Request Body (JSON/XML Payload).
+	* it can be done with the support of POJO class.
+	
+2- De-serialization :
+	* it is a process of converting Response(JSON/XML) body to Java object.
+	* 

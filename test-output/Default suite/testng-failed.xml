@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JiraRestAPIs.Demo">
+      <class name="OAuth2.Demo">
         <methods>
-          <include name="authenticateJira"/>
-          <include name="addAttachements"/>
-          <include name="createIssueInJira"/>
+          <include name="getAccessToken"/>
+          <include name="getCode"/>
+          <include name="getCourse"/>
         </methods>
-      </class> <!-- JiraRestAPIs.Demo -->
+      </class> <!-- OAuth2.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
