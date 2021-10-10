@@ -6,4 +6,8 @@
 	
 2- De-serialization :
 	* it is a process of converting Response(JSON/XML) body to Java object.
-	* 
+
+	
+De-Serialization ----------
+	-if request/response type is JSON, then we need to have Jackson, Jackson2, Gson libraries.
+	-if request/Response type is XML, then we need to have JAXB library.	
